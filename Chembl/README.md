@@ -1,4 +1,4 @@
-# 🧪 ChEMBL Compound Search & Analysis (bioPython_analysis.py)
+# 🧪 ChEMBL Compound Search & Analysis (BioPython_analysis.py)
 
 Αυτό το project πραγματοποιεί αναζήτηση ενώσεων στο ChEMBL σχετικές με "liver toxicity", αποθηκεύει τα δεδομένα και δημιουργεί διαδραστικά γραφήματα για ανάλυση.
 
