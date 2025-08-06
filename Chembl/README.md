@@ -1,17 +1,20 @@
-# 🧪 ChEMBL Compound Search & Analysis (BioPython_analysis.py)
+# ChEMBL Molecular Weight Enrichment
 
-Αυτό το project πραγματοποιεί αναζήτηση ενώσεων στο ChEMBL σχετικές με "liver toxicity", αποθηκεύει τα δεδομένα και δημιουργεί διαδραστικά γραφήματα για ανάλυση.
+This project provides simple Python scripts to:
 
-## 📋 Λειτουργίες
-- 🔎 Αναζήτηση ενώσεων από τη βάση δεδομένων ChEMBL.
-- 💾 Αποθήκευση αποτελεσμάτων σε αρχείο CSV.
-- 📊 Οπτικοποίηση δεδομένων:
-  - Pie chart για την κατανομή τύπων μορίων.
-  - Bar chart με τις Top 10 ενώσεις βάσει ονόματος.
-- 🎯 Φιλτράρισμα μόνο για Small Molecules.
+1. Fetch molecular weight data from the ChEMBL API based on ChEMBL IDs.
+2. Split large CSV files into smaller parts for easier processing.
 
-## ⚙️ Απαιτήσεις
-- Python 3.x
-- Βιβλιοθήκες:
-  ```bash
-  pip install pandas chembl_webresource_client plotly
+## Files
+
+- `chembl_tools.py`: Contains two main functions:
+  - `enrich_with_molecular_weight`: Adds molecular weight to ChEMBL IDs in a CSV file.
+  - `split_csv_file`: Splits a CSV file into multiple smaller files.
+
+## Requirements
+
+- Python 3.7 or newer
+- `pandas`, `requests`
+
+Install requirements using:
+
