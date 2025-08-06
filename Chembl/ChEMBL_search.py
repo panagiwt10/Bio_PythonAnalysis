@@ -3,7 +3,7 @@ import requests
 import time
 import os
 
-# === Συνάρτηση για ανάκτηση ChEMBL δεδομένων ===
+# === Συνάρτηση για ανάκτηση ChEMBL δεδομένων(βαση του chemb_id) ===
 def fetch_chembl_data(drug_name):
     url = f"https://www.ebi.ac.uk/chembl/api/data/molecule/search?q={drug_name}"
     headers = {"Accept": "application/json"}
